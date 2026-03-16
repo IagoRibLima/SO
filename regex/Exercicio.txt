@@ -1,0 +1,23 @@
+data
+tempo(24h)
+telefone
+placa de carro mercosul 
+cnpj
+email
+URL site
+
+Data: 16/03/2025
+Hora: 12:30
+Telefone: (11)91234-1234
+Placa: BRA2E20
+CNPJ: 12.345.678/0001-90
+E-mail: email@email.com
+URL: http://www.site.com.br
+
+Data: \d{2}\/\d{2}\/\d{4}
+Hora: \d{2}:\d{2}
+Telefone: \(\d{2}\)\d{5}\-\d{4}
+Placa: [A-Z]{3}\d[A-Z]\d{2}
+CNPJ: \d{2}.\d{3}.\d{3}\/\d{4}-\d{2}
+E-mail: [\w.-]+@[\w.-]+\.[a-zA-Z]{2,}
+URL: https?:\/\/[^\s]+

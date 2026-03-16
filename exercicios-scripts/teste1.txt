@@ -1,0 +1,4 @@
+total 8
+-rw-rw-r-- 1 iago-lima iago-lima 447 mar  9 10:40 script01.sh
+-rw-rw-r-- 1 iago-lima iago-lima  81 mar  9 10:45 script02.sh
+-rw-rw-r-- 1 iago-lima iago-lima   0 mar  9 10:46 teste.txt
